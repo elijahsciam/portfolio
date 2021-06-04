@@ -5,7 +5,7 @@ import {Button} from '@material-ui/core'
 
 const About = () => {
   return (
-    <div className="card border-white">
+    <div className="card border-white" id="about">
       <h1>
         Fullstack software engineer born from an obsession with decoding and
         translating ancient Chinese literature.

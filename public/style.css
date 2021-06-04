@@ -30,3 +30,9 @@ form div {
   justify-content: space-evenly;
   background-color: aquamarine;
 }
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
