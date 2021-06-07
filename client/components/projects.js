@@ -21,7 +21,7 @@ const Projects = () => {
   const classes = useStyles()
 
   return (
-    <div className="cards" id="projects">
+    <div className="projects" id="projects">
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia

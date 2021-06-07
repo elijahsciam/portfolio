@@ -7,16 +7,18 @@ import Typography from '@material-ui/core/Typography'
 
 const Navbar = () => {
   return (
-    <div className>
-      <AppBar position="static">
+    <div>
+      <AppBar>
         <Toolbar className="nav">
           <Typography variant="h6">
             <Link
               activeClass="active"
               to="projects"
+              href="#"
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-100}
             >
               Projects
             </Link>
@@ -25,6 +27,7 @@ const Navbar = () => {
             <Link
               activeClass="active"
               to="about"
+              href="#"
               spy={true}
               smooth={true}
               duration={1000}

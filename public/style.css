@@ -23,6 +23,7 @@ form div {
 #hello {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 5%;
 }
 
 .nav {
@@ -31,8 +32,14 @@ form div {
   background-color: aquamarine;
 }
 
-.cards {
+.projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 30%;
+  margin-top: 15%;
+}
+
+.home {
+  margin-bottom: 40%;
 }
